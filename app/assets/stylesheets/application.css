@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+ $gray: #ff0000;
+
+ .color {
+   background: $gray;
+ }

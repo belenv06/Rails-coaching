@@ -14,8 +14,38 @@
  *= require_self
  */
 
- $gray: #ff0000;
+ 
+  $gray: #976f32;
+  $coral: #F28D77;
 
- .color {
-   background: $gray;
- }
+  .container {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .sub {
+    margin: 0px;
+  }
+  
+  .answer {
+    margin-top: 0px;
+    color: $gray;
+  }
+  
+  .answerc {
+    margin-top: 7px;
+    color: $gray;
+  }
+
+  .input {
+    padding: 10px;
+    border-color: rgb(67, 67, 67);
+    box-shadow: none;
+
+  }
+
+  .submit {
+    padding: 10px;
+    background-color: $coral;
+    color: white;
+  }

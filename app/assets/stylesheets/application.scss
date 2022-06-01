@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+ 
   $gray: #976f32;
   $coral: #F28D77;
 
@@ -32,6 +33,12 @@
     padding: 40px;
     text-align: center;
   }
+
+  .container-box {
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
  
   .small-container {
     padding: 15px 40px 15px 40px;
@@ -43,7 +50,7 @@
   }
   
   .answer {
-    margin-top: 0px;
+    margin: 0px;
     color: $gray;
   }
   
@@ -75,4 +82,24 @@
     text-decoration: none;
     color: white;
     background-color:  $coral;
+  }
+
+  .button-home {
+    background-color: #e2b673;
+    padding: 12px 24px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid #794e0f;
+  }
+
+  .button-again {
+    background-color: $coral;
+    padding: 12px 24px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid #8d301b;
   }

@@ -3,8 +3,11 @@
   <h2> Do you want to say something? </h2>
 
   <form action="/answer">
-    <input class="input" type="text" name="answer_letters">
+    <input class="input" type="text" name="answer_letter">
     <input class="submit" type="submit" value="Ask!" >
   </form>
+  <% if @alert %>
+    <p><%= @alert %> </p>
+  <% end %>
 
 </div>
